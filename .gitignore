@@ -1,0 +1,15 @@
+﻿# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Private SSH keys
+ssh/*
+!ssh/*.pub
+
+# Local credentials
+*.tfvars
+*.tfvars.json
+.env
